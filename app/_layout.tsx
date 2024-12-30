@@ -18,7 +18,12 @@ if (!publishableKey) {
   );
 }
 
-LogBox.ignoreLogs(["Clerk:"]);
+LogBox.ignoreLogs([
+  "Clerk:",
+  "Failed to get FCM token",
+  "clerk-js",
+  "expo-router",
+]);
 
 export default function RootLayout() {
   const [loaded] = useFonts({
