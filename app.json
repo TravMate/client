@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "uber-app-primary",
-    "slug": "uber-app-primary",
+    "name": "tavmate",
+    "slug": "tavmate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "tavmate",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
