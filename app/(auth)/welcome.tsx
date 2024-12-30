@@ -25,10 +25,10 @@ const Onboarding = () => {
         ref={swiperRef}
         loop={false}
         dot={
-          <View className="w-[32px] h-[4px] mx-1 bg-[#E2E8F0] rounded-full" />
+          <View className="w-[9px] h-[9px] mx-1 bg-[#E2E8F0] rounded-full" />
         }
         activeDot={
-          <View className="w-[32px] h-[4px] mx-1 bg-[#0286FF] rounded-full" />
+          <View className="w-[32px] h-[9px] mx-1 bg-[#FBB28C] rounded-full" />
         }
         onIndexChanged={(index) => {
           setActiveIndex(index);
