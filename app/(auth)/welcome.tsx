@@ -66,7 +66,7 @@ const Onboarding = () => {
         title={isLastIndex ? "Get Started" : "Next"}
         onPress={() =>
           isLastIndex
-            ? router.replace("/(auth)/sign-up")
+            ? router.replace("/(auth)/sign-in")
             : swiperRef.current?.scrollBy(1)
         }
         className={"w-11/12 mt-10 mb-4"}

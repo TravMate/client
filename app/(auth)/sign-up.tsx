@@ -86,14 +86,11 @@ const SignUp = () => {
       showsVerticalScrollIndicator={false}
     >
       <View className={"flex-1 bg-white"}>
-        <View className={"relative w-full h-[250px]"}>
-          <Image source={images.signUpCar} className={"z-0 w-full h-[250px]"} />
+        <View className={"mt-24"}>
           <Text
-            className={
-              "text-2xl text-black font-JakartaSemiBold absolute bottom-5 left-5"
-            }
+            className={"text-2xl text-black font-JakartaSemiBold text-center"}
           >
-            Create Your Account
+            Sign Up
           </Text>
         </View>
         <View className={"p-5"}>
@@ -131,7 +128,7 @@ const SignUp = () => {
             className={"text-lg text-center text-general-200 mt-10"}
           >
             <Text>Already have an account?</Text>
-            <Text className={"text-primary-500"}> Log In</Text>
+            <Text className={"text-[#F98C53]"}> Log In</Text>
           </Link>
         </View>
         <ReactNativeModal

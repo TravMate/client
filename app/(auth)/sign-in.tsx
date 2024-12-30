@@ -38,21 +38,24 @@ const SignIn = () => {
       console.error(JSON.stringify(err, null, 2));
     }
   }, [isLoaded, form.email, form.password]);
+
   return (
     <ScrollView
       className={"flex-1 bg-white"}
       showsVerticalScrollIndicator={false}
     >
       <View className={"flex-1 bg-white"}>
-        <View className={"relative w-full h-[250px]"}>
-          <Image source={images.signUpCar} className={"z-0 w-full h-[250px]"} />
+        <View className={"relative mt-16"}>
           <Text
-            className={
-              "text-2xl text-black font-JakartaSemiBold absolute bottom-5 left-5"
-            }
+            className={"text-2xl text-black font-JakartaSemiBold text-center"}
           >
-            Welcome
+            Sign In
           </Text>
+          <Image
+            source={require("../../assets/images/signin.png")}
+            // style={{ width: 300, height: 300 }}
+            className={"text-center mx-auto mt-4"}
+          />
         </View>
         <View className={"p-5"}>
           <InputField
@@ -82,7 +85,7 @@ const SignIn = () => {
             className={"text-lg text-center text-general-200 mt-10"}
           >
             <Text>Don't have an account?</Text>
-            <Text className={"text-primary-500"}> Sign Up</Text>
+            <Text className={"text-[#F98C53]"}> Sign Up</Text>
           </Link>
         </View>
       </View>
